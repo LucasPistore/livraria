@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #333; /* Define a cor de fundo */
+    background-color: #3e0480; /* Define a cor de fundo */
     color: #fff; /* Define a cor do texto */
     text-align: center; /* Centraliza o texto */
     padding: 1rem; /* Define um espaçamento interno */
@@ -52,7 +52,7 @@ main {
 }
 
 .card button {
-    background-color: #333;
+    background-color: #3e0480; /* Define a cor de fundo */
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -62,11 +62,12 @@ main {
 }
 
 .card button:hover {
-    background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #3e048079; /* Define a cor de fundo */
+    transform: scale(1.7);
 }
 
 footer {
-    background-color: #333;
+    background-color: #3e0480; /* Define a cor de fundo */
     color: #fff;
     text-align: center;
     padding: 1rem;
