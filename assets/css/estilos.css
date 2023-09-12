@@ -78,3 +78,75 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+
+
+.fieldset {
+margin: 30px;
+}
+
+/* estilos.css */
+
+/* Formulário */
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  overflow: hidden;
+}
+
+form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form legend {
+  font-weight: bold;
+  color: #777;
+}
+
+/* estilos.css */
+
+/* Componentes Checkbox e Radio */
+.radio-group label {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  .input-check {
+      display: inline-block;
+      margin-right: 10px;
+  }
+  
+  .input-check input[type="checkbox"] + label {
+      display: inline-block;
+      font-weight: normal;
+  }
+
+  /* estilos.css */
+
+/* Componentes Textarea e Select */
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Permite redimensionar verticalmente o textarea */
+    height: 120px; /* Altura inicial do textarea */
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
